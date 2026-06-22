@@ -1,0 +1,23 @@
+# Claves y secretos — NUNCA subir
+API.env
+*.env
+.env
+
+# Base vectorial generada (se regenera al ejecutar el notebook)
+chroma_db/
+*.sqlite3
+*.bin
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
